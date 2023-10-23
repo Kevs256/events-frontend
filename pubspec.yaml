@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  provider: ^6.0.5
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +18,13 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/icons/
+  fonts:
+    - family: Almarai
+      fonts:
+        - asset: assets/fonts/Almarai-Bold.ttf
+        - asset: assets/fonts/Almarai-ExtraBold.ttf
+        - asset: assets/fonts/Almarai-Light.ttf
+        - asset: assets/fonts/Almarai-Regular.ttf
+          # style: regular
